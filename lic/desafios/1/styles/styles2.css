@@ -1,0 +1,67 @@
+
+/* Ajustes para pantallas de celulares */
+@media screen and (max-width: 500px) {
+    .container {
+        width: 83.5%;
+        
+    }
+    
+
+    .evol h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+    .reggie {
+        width: 60%;
+    }
+    footer{
+        border-top: 0.5vh;
+    }
+}
+/* para tabletas*/
+@media screen and (min-width: 501px) and (max-width: 768px)  {
+
+    .container {
+        width: 90%;
+       
+    }
+
+    .evol h1 {
+        font-size: 28px;
+    }
+
+    button {
+        font-size: 20px;
+    }
+    .reggie {
+        width: 80%;
+    }
+    footer{
+        border-top: 0.5vh;
+    }
+}
+
+/*para escritorio y mas alla*/
+@media screen and (min-width: 769px) {
+    .container {
+        width: 90%;
+
+    }
+
+    .evol h1 {
+        font-size: 32px;
+    }
+
+    input[type="number"], button {
+        font-size: 22px;
+    }
+    .reggie {
+        width: 70%;
+    }
+    footer{
+        border-top: 1vh;
+    }
+}

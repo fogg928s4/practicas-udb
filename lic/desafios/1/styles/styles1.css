@@ -1,0 +1,121 @@
+
+ body {
+    font-family: 'Trebuchet MS', sans-serif;
+    background-color: #8ACE00;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+/* Contenedor principal  de los divs*/
+.title {
+    background-color: #6fc5c2;
+    color: white;
+    padding: 20px 30px 20px 30px;
+    border-radius: 80px;
+    
+    border: 3px solid #80cbc4;
+    margin-bottom: 15px;
+}
+.container {
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 10px solid #b4dd13;
+    margin-bottom: 15px;
+    /*max-width: 800px;
+    min-width: 320px;*/
+}
+
+
+/* para los enlaces entre htmk*/
+.container a {
+    background-color: #E10C0B;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    margin: 4px 20px;
+    cursor: pointer;
+    border-radius: 50px;
+    border: 1px solid #fff;
+}
+.container a:hover {
+    cursor: pointer;
+    background-color: #a30d0d;
+}
+
+
+
+
+.evol {
+    font-size: 16px;
+    text-align: left;
+}
+
+
+.end {
+    font-size: 16px;
+    margin-bottom: 20px;
+    text-align: center;
+    line-height: 1.5;
+}
+.evol h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+
+/*input :D */
+
+.reggie	{
+	border: 2px solid #828282;
+	border-radius: 20px;
+	text-align: center;
+	height: 40px;
+    width: 100vh;
+    margin: 15px;
+}
+
+
+.numbo {
+    border: 2px solid #828282;
+	border-radius: 20px;
+	text-align: center;
+	height: 50px;
+    margin: 15px;
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+/* boton que algo hara */
+button {
+    background-color: #189bcc;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 4px;
+    cursor: grab;
+    border-radius: 50px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes */
+p {
+    font-size: 18px;
+}
+
+
+footer {
+    margin-top: 1vh;
+}
