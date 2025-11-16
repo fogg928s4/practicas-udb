@@ -1,8 +1,9 @@
-# Practicas de LAB para LIC
+# Practicas - Universidad Don Bosco
 
-Este repositorio guarda algunas practicas de laboratorio durante Lenguajes Interpretados en el Cliente que consideré de interés o relevancia.
-También incluye algunas discusiones o ejercicios extra propuestos al final de las guías.
+Este directorio guarda algunas practicas de laboratorio, guias y propias durante mi tiempo en la Universidad Don Bosco que consideré de interés o relevancia.
+También incluye algunas discusiones o ejercicios extra propuestos.
+
 
 ## Estructura
 
-Cada ejercicio o práctica esta guardado en una carpeta con la estructura ´w[semana] - e[ejercicio]´
+Cada directorio o carpeta representa una asignatura distinta, nombrado respectivamente por la abreviatura de la materia. Estas no se encuentran clasificadas por semestere ni año, solo por asignatura. Cada directorio tendrá una estructura distinta según sea necesario o pertinente.
