@@ -1,0 +1,38 @@
+.submitbtn {
+    width: 10%;
+    background-color: green;
+    color: white;
+    font-weight: bold;
+
+}
+.submitbtn:hover {
+    background-color: darkgreen;
+    cursor: progress;
+}
+.resetbtn {
+    width: 10%;
+    background-color: red;
+    color: white;
+    font-weight: bold;
+
+}
+.resetbtn:hover {
+    background-color: darkred;
+    cursor: pointer;
+}
+
+.campos {
+    font-size: 14px;
+    display: block;
+    align-items: center;
+    text-align: center;
+}
+input {
+    height: 50px;
+    width: 25%;
+    text-align: center;
+    font-size: 20px;
+    color:black;
+    border-radius: 12px;
+    padding: 10px;
+}

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validacion - Ej2</title>
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <h1>Validacion de campo</h1>
+        <h3>Ingrese sus datos</h3>
+    </header>
+    <div class="campos">
+        <form action="javascript:void(0);" id="formulario" method="post" name="registro">
+            <input type="text" name="nombre" id="firstname" placeholder="(Su nombre)" autocomplete="off" tabindex="1" maxlength="40" class="txtinput requested" require/>
+            <p id="valName"></p>
+            
+            <input type="email" name="email" id="email" placeholder="(Su coreo electronico)" autocomplete="off" tabindex="2" maxlength="40" class="txtinput requested" require/>
+            <p id="valEmail"></p>
+
+            <input type="password" name="passwd" id="passwd" placeholder="Ingrese su contraseña" autocomplete="off" tabindex="3" maxlength="40" class="txtinput requested" require/>
+            <p id="valPass"></p>
+
+            <section id="buttons">
+                <input type="reset" name="reset" id="resetbtn" class="resetbtn" tabindex="8" value="Cancelar">
+                <input type="submit" name="submit" id="submitbtn" class="submitbtn" tabindex="9" value="Registrar">
+            </section>
+        </form>
+    </div>
+    <p id="message"></p>
+
+    <script src="js/script1.js"></script>
+    <script src="js/script2.js"></script>
+
+</body>
+</html>

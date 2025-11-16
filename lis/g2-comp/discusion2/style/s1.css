@@ -1,0 +1,43 @@
+.form-control {
+    width: 50%;
+}
+.boxed {
+    background-color: #b4dd1e;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5vh;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 3px;
+    margin: 2vh 2vh 2vh 2vh;
+}
+
+.boxtop {
+    background-color: brat;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2.5vh;
+    font-weight: bold;
+    font-size: 24px;
+    border-radius: 6px;
+    margin: 2vh 2vh 2vh 2vh;
+}
+.headT {
+    background-color: #8ace00;
+    border-radius: 2px;
+}
+.headT td {
+    text-align: center;
+    border: 10px;
+    padding: 6px;
+    margin: 1px solid black;
+    
+
+}
+.contT {
+    background-color: whitesmoke;
+}
